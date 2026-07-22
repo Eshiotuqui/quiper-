@@ -59,7 +59,7 @@ export default function About() {
   const { ref, isInView } = useInView(0.1);
 
   return (
-    <section id="sobre" className="relative py-24 md:py-32 bg-white" ref={ref}>
+    <section id="sobre" className="relative py-24 md:py-32 bg-white overflow-hidden" ref={ref}>
       <div className="absolute top-0 left-0 right-0 h-24 overflow-hidden">
         <svg viewBox="0 0 1440 120" className="absolute bottom-0 w-full h-full" preserveAspectRatio="none">
           <path d="M0,60 C360,120 720,0 1080,60 C1260,90 1380,40 1440,60 L1440,120 L0,120 Z" fill="rgba(56,189,248,0.03)" />

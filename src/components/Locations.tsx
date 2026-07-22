@@ -22,7 +22,7 @@ export default function Locations() {
   const { ref, isInView } = useInView(0.1);
 
   return (
-    <section id="localizacao" className="relative py-24 md:py-32 bg-white" ref={ref}>
+    <section id="localizacao" className="relative py-24 md:py-32 bg-white overflow-hidden" ref={ref}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <motion.div className="text-center mb-16"
           initial={{ opacity: 0, y: 30 }} animate={isInView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.6 }}>

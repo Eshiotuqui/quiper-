@@ -40,7 +40,7 @@ export default function Catalog() {
   };
 
   return (
-    <section id="catalogo" className="relative py-24 md:py-32 bg-slate-50/50" ref={ref}>
+    <section id="catalogo" className="relative py-24 md:py-32 bg-slate-50/50 overflow-hidden" ref={ref}>
       <div className="absolute top-0 left-0 w-[500px] h-[500px] bg-sky-100/30 rounded-full blur-[120px] -translate-x-1/2" />
       <div className="absolute bottom-0 right-0 w-[400px] h-[400px] bg-sky-50/50 rounded-full blur-[100px] translate-x-1/3" />
 
